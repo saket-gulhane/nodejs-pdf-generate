@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>create pdf</title>
+  </head>
+  <body>
+    <div id="content" class="center12">
+      <h3>hello convert to pdf</h3>
+      <h2>h2 tag word</h2>
+      <p
+        style="font-size: 16; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+        praesentium quam itaque rerum pariatur optio beatae adipisci officiis
+        odio magnam sunt dolorem atque molestias voluptate voluptatibus ducimus
+        id, cupiditate qui!
+      </p>
+      <p id="date"></p>
+      <p id="time"></p>
+
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+      <!-- <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-storage.js"></script> -->
+
+      <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#available-libraries -->
+
+      <!-- <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyDNCNdjpG7FesSpGEtq5d7qSCgsQAeOf_w",
+          authDomain: "voiceprescription1-cncbmi.firebaseapp.com",
+          databaseURL: "https://voiceprescription1-cncbmi.firebaseio.com",
+          projectId: "voiceprescription1-cncbmi",
+          storageBucket: "voiceprescription1-cncbmi.appspot.com",
+          messagingSenderId: "708469216633",
+          appId: "1:708469216633:web:66eb9cedda04611b644ba8"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        console.log(firebase);
+
+        function uploadFile() {
+          const ref = firebase.storage().ref();
+
+          const file = document.querySelector("#fileWav").files[0];
+
+          const name = new Date() + "-" + file.name;
+
+          const metaData = {
+            contentType: file.type
+          };
+
+          const task = ref.child(name).put(file, metaData);
+
+          task
+            .then(snapshot => snapshot.ref.getDownloadURL())
+            .then(url => {
+              //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+              //pass this as url for request to server
+              console.log(url);
+              /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+              alert("file uploaded");
+            });
+        }
+      </script> -->
+    </div>
+    <button id="cmd">download pdf</button>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"
+  ></script>
+  <script src="./index.js"></script>
+</html>
+
+​

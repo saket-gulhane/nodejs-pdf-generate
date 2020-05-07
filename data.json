@@ -1,0 +1,39 @@
+{
+  "Vendor": {
+    "siteName": "onlineshopping.com",
+    "name": "OnlineShoping pvt Limited",
+    "id": "JE-5141611ps",
+    "address": "Ward No: 4, Lakshmi Nagar, Banglore, India",
+    "number": "0712 - 2645144"
+  },
+  "customer": {
+    "firstname": "Aamod",
+    "lastname": "Shukla",
+    "address": "Plot No: 45, new sector, Banglore, India."
+  },
+  "bill": {
+    "BillId": "cus441-asdc6461",
+    "DeliveryDate": "23/10/2019"
+  },
+
+  "list": [
+    {
+      "name": "Notebook Large",
+      "qunatity": "5",
+      "priceUnit": "20",
+      "totalP": "100"
+    },
+    {
+      "name": "Mouse Razer",
+      "qunatity": "1",
+      "priceUnit": "1500",
+      "totalP": "1500"
+    },
+    {
+      "name": "Logitech Keyboard",
+      "qunatity": "1",
+      "priceUnit": "1200",
+      "totalP": "1200"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+.center {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  border: 1px solid black;
+  padding: 60px;
+}
+
+hr.new {
+  border: 1px solid #00cb86;
+}
