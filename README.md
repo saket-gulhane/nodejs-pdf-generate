@@ -1,5 +1,5 @@
 # nodejs-pdf-generate
-Generate custom pdf at server side from custom template using puppeteer and handlebars.
+Generate custom pdf at server side (node) from custom template using puppeteer and handlebars.
 
 ### Dependencies:
     1. puppeteer
