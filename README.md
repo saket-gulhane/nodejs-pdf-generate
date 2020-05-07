@@ -1,5 +1,7 @@
 # nodejs-pdf-generate
 Generate custom pdf at server side (node) from custom template using puppeteer and handlebars.
+Genrate tables with dynamic length of json array.
+Fetches data from json object.
 
 ### Dependencies:
     1. puppeteer
