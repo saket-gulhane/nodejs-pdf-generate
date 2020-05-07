@@ -13,3 +13,5 @@ Generate custom pdf at server side (node) from custom template using puppeteer a
     3. "finalpdf.pdf" file will be created at main directory.
     
 To change template design move to "./template/page.hbs"   
+
+Sample pdf: "https://github.com/th-10/nodejs-pdf-generate/blob/master/pdfFinal.pdf"
